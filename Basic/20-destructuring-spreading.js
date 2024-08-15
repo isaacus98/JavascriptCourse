@@ -97,7 +97,7 @@ let myArray2 = [...myArray, 5, 6]
 
 console.log(myArray2)
 
-// Copia de arrays
+// Copia de arrays - No se pasa referencia
 
 let myArray3 = [...myArray]
 
@@ -109,13 +109,13 @@ let myArray4 = [...myArray, ...myArray2, ...myArray3]
 
 console.log(myArray4)
 
-// Sintaxis objects
+// Sintaxis objects 
 
 let person4 = { ...person, email: "braismoure@mouredev.com" }
 
 console.log(person4)
 
-// Copia de objects
+// Copia de objects - No se pasa referencia
 
 let person5 = { ...person }
 
